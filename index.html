@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scroll Blogs</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Scroll Blogs</h1>
+		<nav>
+			<h1>Search</h1>
+			<form action="/search" method="POST">
+				<label for="query">Search Query:</label>
+				<input type="text" id="query" name="query" required>
+				<button type="submit">Search</button>
+			</form>
+			<ul>
+				<li><a href="Home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+				<li><a href="blog.html">BLOGS</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<section class="hero">
+			<div class="hero-image">
+				<img src="eye-ge06991bfa_1920.png" alt="eye-ge06991bfa_1920 Image">
+			</div>
+			<div class="hero-content">
+				<h2>Welcome to My Website</h2>
+				<p>Sure, here's a sample paragraph for a blog post written for customers:
+
+                    "Thank you for taking the time to read our blog! Our goal is to provide you with informative and interesting content that will help you make informed decisions about the products and services we offer. We understand that your time is valuable, and we appreciate you choosing to spend it with us. Our team is dedicated to bringing you the latest industry news, tips and tricks, and helpful resources that will enhance your experience with our brand. So sit back, relax, and enjoy reading our blog. We hope you find our content both enjoyable and useful!"</p>
+				<a href="#" class="button">Learn More</a>
+			</div>
+		</section>
+		
+		<section class="features">
+			<h2>Features</h2>
+			<ul>
+				<li>
+					<h3>Responsive Design</h3>
+					<p>"Experience your website in all its beauty, no matter the device, with our responsive design approach."</p>
+				</li>
+				<li>
+					<h3>Clean Code</h3>
+					<p>"Experience the power of simplicity with our clean code that delivers a seamless user experience and ensures maintainability and scalability."</p>
+				</li>
+				<li>
+					<h3>User Friendly</h3>
+					<p>"Discover the ultimate user experience with our user-friendly design that makes navigation a breeze and elevates engagement to new heights."</p>
+				</li>
+			</ul>
+		</section>
+	</main>
+	
+	<footer>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>Feel free to contact us with any questions or inquiries:</p>
+            <ul>
+              <li>Email: vikasmakwana9988@gmail.com</li>
+              <li>Phone: +918815984255</li>
+            </ul>
+		<p>&copy; 2023 My Website. All rights reserved.</p>
+	</footer>
+
+	<script>
+		// add an event listener to the "Learn More" button
+		const learnMoreButton = document.querySelector('.button');
+		learnMoreButton.addEventListener('click', () => {
+			alert('This feature is coming soon!');
+		});
+	</script>
+</body>
+</html>
